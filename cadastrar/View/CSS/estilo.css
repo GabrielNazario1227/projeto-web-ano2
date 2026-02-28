@@ -1,0 +1,63 @@
+/*Arquivo estilo.css*/
+	*{
+	margin: 0px;
+	padding: 0px;
+	}
+        
+        body{ background-color:#B0E0E6;
+	}
+	
+	h1{font-family: Ms Trebuchet;
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
+	}
+
+	
+	form{ margin: 40px;
+	padding:10px;
+	}
+
+	label{font-family: Ms Trebuchet;
+	font-size:18px;
+	color: #000000;
+	text-align: left;
+	line-height : 10px;
+	}
+
+	#text1 {font-family: Ms Trebuchet; /* uso de id */
+	font-size:15px;
+	color: #000000;
+	text-align: left;
+	line-height : 10px;
+	}
+
+	#text2 {font-family: Ms Trebuchet;
+	font-size:15px;
+	background-color:#FFFFFF;
+	color: #000000;
+	text-align: left;
+	line-height : 10px;
+	}
+
+	#text3 {font-family: Ms Trebuchet;
+	font-size:15px;
+	color: #000000;
+	text-align: left;
+	line-height : 10px;
+	}
+	
+	h5 {font-family: Ms Trebuchet;
+	font-size: 10px;
+	text-align: center;
+	color:#000000;
+	text-decoration: none; /* coloca uma decoração na font h5*/
+	font-weight: bold; /* peso da font, aqui em negrito*/
+        }
+        
+        div { /* Quadrado com forms dentro */
+        width: 500px; /* Largura da borda */
+        border: 10px outset red; /* Grossura da borda - Duas cores de vermelho */
+        border-radius: 150px; /* Borda arredondada */
+        padding: 40px; /* Distancia do elmento pra borda */
+        }
