@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Logar</title>
+        <meta charset="UTF-8">
+        <link rel ="icon" type="image/jpg" href="img/icon.jfif"/>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    </head>
+    <body>      
+        <h1>Login do PET</h1> <!-- h1 para titulos do documento html e center está com aalinhamento centralizado -->
+	<hr><!--tag linha -->
+        
+        <form method="POST" action="../Controller/controla_pet_logar.php">
+        <center><table>
+        
+        <tr><td><label>Nome do pet:</label></td></tr>
+        <tr><td><input type="text" name="npet"></td></tr>
+
+        <tr><td><input type="reset" value="Limpar"><input type="submit" value="Logar" name="botao"></td></tr>
+
+        </table></center>
+        </form>
+      
+        <form action="usuario.php"><center>
+        <input type="submit" value="Cadastrar"><br>
+        </center></form>
+    </body>
+    <hr>
+    <h5> Gabriel Oliveira - Todos os direitos resevados</h5>
+</html>

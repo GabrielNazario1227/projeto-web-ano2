@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastrar</title>
+        <meta charset="UTF-8">
+        <link rel ="icon" type="image/jpg" href="img/icon.jfif"/>
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    </head>
+    <body>
+        <h1>Cadastro do cliente - Clinica veterinaria</h1> <!-- h1 para titulos do documento html e center está com aalinhamento centralizado -->
+	<hr><!--tag linha -->
+	<form name="cadastro" action="../Controller/controla_cadastro.php" method="post"> <!--o controle label=etiqueta ajuda a acessibilidade: leitor de tela leem este item-->
+	<center><table>
+	          
+        <tr><td> <label>Nome</label></td></tr>
+	<tr> <td><label><input type="text " required ="required" name="nome" id="text1" size="50" placeholder="Digite seu nome aqui" autofocus/></label></td></tr>        
+                
+        <tr><td><label>E-mail</label></td></tr>
+	<tr><td><label><input type="email" required ="required" name="email" id="text2" size="50" placeholder="Digite seu email aqui"/></label></td></tr>
+       
+        <tr><td><label>Endereço</label></td></tr>
+        <tr><td><label><input type="text" required ="required" name="endereco" size="50" placeholder="Digite seu endereço aqui"></label></td></tr>
+        
+	<tr><td><label>Telefone</label></td></tr>
+	<tr><td><label><input type="text" required ="required" name="telefone" id="text3" size="50" placeholder="Digite seu telefone aqui"/></label></td><tr>
+        
+        <tr><td><label>Senha</label></td></tr>
+        <tr><td><label><input type="password" name="senha" required ="required" placeholder="Digite sua senha aqui"/></label></td></tr>
+        
+	<tr><td><input type="reset" value="Limpar"><input type="submit" value="Cadastrar" name="botao"></td></tr>
+        
+	</table></center>
+	</form>
+        
+        <form action="logar.html"><center>
+        <input type="submit" value="Logar"><br>
+        </center></form>
+        
+	</body>
+	<hr>
+	<h5> Gabriel Oliveira - Todos os direitos resevados</h5>
+</html>
